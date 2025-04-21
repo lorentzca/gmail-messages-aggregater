@@ -10,6 +10,9 @@ Install libraries.
 
 - `$ pip install -r requirements.txt`
 
+
+If you see an `invalid_grant` error, the refresh token may be outdated. Please delete `token.json` and run `quickstart.py` again.
+
 ## Usage
 
 `$ python main.py <your Gmail address.>`
